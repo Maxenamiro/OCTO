@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F0F0F0;
+}
+
+.header {
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+}
+
+.lists li {
+    list-style-type: none;
+    display: inline;
+    padding: 108px;
+}
+
+.text {
+    padding: 40px 390px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px 24px 56px 24px;
+}
+
+.footer{
+    background-color: #FFFFFF;
+    display: flex;
+}
